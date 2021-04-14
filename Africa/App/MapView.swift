@@ -40,12 +40,18 @@ struct MapView: View {
             // MapMarker(coordinate: item.location, tint: .accentColor)
             
             // (C) CUSTOM BASIC ANNOTATION (it could be interactive)
+//            MapAnnotation(coordinate: item.location) {
+//                Image("logo")
+//                    .resizable()
+//                    .scaledToFit()
+//                    .frame(width: 32, height: 32, alignment: .center)
+//            } //: ANNOTATION
+            
+            // (D) CUSTPM ADVANCED ANNOTATION (it could be interactive)
             MapAnnotation(coordinate: item.location) {
-                Image("logo")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 32, height: 32, alignment: .center)
+                MapAnnotationView(location: item)
             } //: ANNOTATION
+            
         })
         
     }
