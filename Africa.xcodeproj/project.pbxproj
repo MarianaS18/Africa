@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560A79E326284A4900236F0C /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A79E226284A4900236F0C /* AnimalGridItemView.swift */; };
 		5620FA0B2621D1FC0016AC8A /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5620FA0A2621D1FC0016AC8A /* AfricaApp.swift */; };
 		5620FA0D2621D1FC0016AC8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5620FA0C2621D1FC0016AC8A /* ContentView.swift */; };
 		5620FA0F2621D1FD0016AC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5620FA0E2621D1FD0016AC8A /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		560A79E226284A4900236F0C /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		5620FA072621D1FC0016AC8A /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5620FA0A2621D1FC0016AC8A /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		5620FA0C2621D1FC0016AC8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				565DADD126236A84004A3730 /* VideoPlayerView.swift */,
 				56379ED42627549E005822A8 /* MapAnnotationView.swift */,
 				56ADCA21262764480038147F /* MotionAnimationView.swift */,
+				560A79E226284A4900236F0C /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				565DADCB2623624A004A3730 /* VideoModel.swift in Sources */,
 				5620FA3E2621D7270016AC8A /* VideoListView.swift in Sources */,
 				56379ED226274F26005822A8 /* LocationModel.swift in Sources */,
+				560A79E326284A4900236F0C /* AnimalGridItemView.swift in Sources */,
 				5620FA442621D74D0016AC8A /* GalleryView.swift in Sources */,
 				565DADCE262362BD004A3730 /* VideoListItemView.swift in Sources */,
 				5620FA542621DE7B0016AC8A /* CodableBundleExtension.swift in Sources */,
